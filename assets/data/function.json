@@ -1,0 +1,439 @@
+[
+  {
+    "id": 1,
+    "name": "Reseller",
+    "display_name": "Reseller",
+    "url": "http://reseller.fptdata.com",
+    "functions": [
+      {
+        "id": 1,
+        "name": "Contracts",
+        "display_name": "Hợp Đồng",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 2,
+        "name": "Contract",
+        "display_name": "Hợp Đồng",
+        "url": "Contract",
+        "parent_id": 1
+      },
+      {
+        "id": 3,
+        "name": "Liquidation Contract",
+        "display_name": "Thanh Lý",
+        "url": "LiquidationContract",
+        "parent_id": 1
+      },
+      {
+        "id": 4,
+        "name": "Created Old Contract",
+        "display_name": "Tạo Hợp Đồng Gộp",
+        "url": "CreatedOldContract",
+        "parent_id": 1
+      },
+      {
+        "id": 5,
+        "name": "Change Contract Number",
+        "display_name": "Đổi Số Hợp Đồng",
+        "url": "ChangeContractNumber",
+        "parent_id": 1
+      },
+      {
+        "id": 6,
+        "name": "Domain",
+        "display_name": "Tên Miền",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 7,
+        "name": "Register Domain",
+        "display_name": "Đăng Ký",
+        "url": "RegisterDomain",
+        "parent_id": 6
+      },
+      {
+        "id": 8,
+        "name": "Domain Renew",
+        "display_name": "Gia Hạn",
+        "url": "RenewDomain",
+        "parent_id": 6
+      },
+      {
+        "id": 9,
+        "name": "Domain List",
+        "display_name": "Danh Sách",
+        "url": "DomainList",
+        "parent_id": 6
+      },
+      {
+        "id": 10,
+        "name": "Domain Transit Registers",
+        "display_name": "Chuyển Nhà Đăng Ký",
+        "url": "DomainTransitRegisters",
+        "parent_id": 6
+      },
+      {
+        "id": 11,
+        "name": "Domain Expired List",
+        "display_name": "Danh Sách Hết Hạn",
+        "url": "DomainExpiredList",
+        "parent_id": 6
+      },
+      {
+        "id": 12,
+        "name": "Change DNS",
+        "display_name": "Chuyển DNS",
+        "url": "ChangeDNS",
+        "parent_id": 6
+      },
+      {
+        "id": 13,
+        "name": "Liquidation Domain",
+        "display_name": "Thanh Lý",
+        "url": "LiquidationDomain",
+        "parent_id": 6
+      },
+      {
+        "id": 14,
+        "name": "Combine Domain",
+        "display_name": "Gộp Tên Miền",
+        "url": "CombineDomain",
+        "parent_id": 6
+      },
+      {
+        "id": 15,
+        "name": "Hosting",
+        "display_name": "Hosting",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 16,
+        "name": "Register Hosting",
+        "display_name": "Đăng ký",
+        "url": "RegisterHosting",
+        "parent_id": 15
+      },
+      {
+        "id": 17,
+        "name": "Hosting Add Service",
+        "display_name": "Thêm Dịch Vụ",
+        "url": "HostingAddService",
+        "parent_id": 15
+      },
+      {
+        "id": 18,
+        "name": "Hosting Change Service",
+        "display_name": "Thay Đổi Dịch Vụ",
+        "url": "HostingChangeDetail",
+        "parent_id": 15
+      },
+      {
+        "id": 19,
+        "name": "Hosting Renew",
+        "display_name": "Gia Hạn Hosting",
+        "url": "HostingRenew",
+        "parent_id": 15
+      },
+      {
+        "id": 20,
+        "name": "Hosting Plus Renew",
+        "display_name": "Gia Hạn Dịch Vụ",
+        "url": "HostingPlusRenew",
+        "parent_id": 15
+      },
+      {
+        "id": 21,
+        "name": "Liquidation Hosting",
+        "display_name": "Thanh Lý",
+        "url": "LiquidationHosting",
+        "parent_id": 15
+      },
+      {
+        "id": 22,
+        "name": "Cloud",
+        "display_name": "Cloud",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 23,
+        "name": "Cloud List",
+        "display_name": "Danh Sách Cloud",
+        "url": "CloudList",
+        "parent_id": 22
+      },
+      {
+        "id": 24,
+        "name": "Cloud Transaction List",
+        "display_name": "Danh Sách Giao Dịch",
+        "url": "CloudTransactionList",
+        "parent_id": 22
+      },
+      {
+        "id": 25,
+        "name": "Server",
+        "display_name": "Server",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 26,
+        "name": "Server Register",
+        "display_name": "Đăng Ký",
+        "url": "RegisterServer",
+        "parent_id": 25
+      },
+      {
+        "id": 27,
+        "name": "Server Management",
+        "display_name": "Quản Lý",
+        "url": "ServersManagement",
+        "parent_id": 25
+      },
+      {
+        "id": 28,
+        "name": "Server List",
+        "display_name": "Danh Sách Server",
+        "url": "ServerList",
+        "parent_id": 25
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "SCM",
+    "display_name": "SCM",
+    "url": "http://scmtest.net/OrderRequest",
+    "functions": [
+      {
+        "id": 1,
+        "name": "Warehouse",
+        "display_name": "Kho",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 2,
+        "name": "Inventory",
+        "display_name": "Tồn Kho",
+        "url": "Inventory/Inventory",
+        "parent_id": 1
+      },
+      {
+        "id": 3,
+        "name": "Inventory Adjustment",
+        "display_name": "Điều Chỉnh Tồn Kho",
+        "url": "Inventory/InventoryAdjustmentList",
+        "parent_id": 1
+      },
+      {
+        "id": 4,
+        "name": "Inventory Import",
+        "display_name": "Import Tồn Kho",
+        "url": "InventorySlowImport",
+        "parent_id": 1
+      },
+      {
+        "id": 5,
+        "name": "Vendor Orders",
+        "display_name": "Đơn Hàng Nhà Cung Cấp",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 6,
+        "name": "Purchase Order",
+        "display_name": "Tiến Độ Mua Hàng",
+        "url": "PurchaseOrder",
+        "parent_id": 5
+      },
+      {
+        "id": 7,
+        "name": "Assign an Order",
+        "display_name": "Gán Đơn Hàng",
+        "url": "OrderPreventiveList",
+        "parent_id": 5
+      },
+      {
+        "id": 8,
+        "name": "Create Orders",
+        "display_name": "Tạo Đơn Hàng",
+        "url": "OrderRequest/Create",
+        "parent_id": 5
+      },
+      {
+        "id": 9,
+        "name": "Order Status",
+        "display_name": "Tình Trạng Đơn Hàng",
+        "url": "OrderRequest",
+        "parent_id": 5
+      },
+      {
+        "id": 10,
+        "name": "Create Shipping Request",
+        "display_name": "Tạo Yêu Cầu Giao Hàng",
+        "url": "Create",
+        "parent_id": 5
+      },
+      {
+        "id": 11,
+        "name": "Warehouse Verification",
+        "display_name": "Xác Nhận Nhập Kho",
+        "url": "ReceiptItemListStatus",
+        "parent_id": 5
+      },
+      {
+        "id": 12,
+        "name": "Export Internally",
+        "display_name": "Xuất Nội Bộ",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 13,
+        "name": "Order Status",
+        "display_name": "Tình Trạng Đặt Hàng",
+        "url": "PurchaseOrderStockOutStatus",
+        "parent_id": 12
+      },
+      {
+        "id": 14,
+        "name": "Export Bill",
+        "display_name": "Phiếu Xuất Hàng",
+        "url": "StockOut/List",
+        "parent_id": 12
+      },
+      {
+        "id": 15,
+        "name": "Material Response",
+        "display_name": "Hoàn Ứng Vật Tư",
+        "url": "RefundStockOut_List",
+        "parent_id": 12
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "GIO Cloud",
+    "display_name": "GIO Cloud",
+    "url": "http://stg-gcas.fptgiocloud.net",
+    "functions": [
+      {
+        "id": 1,
+        "name": "System Setting",
+        "display_name": "System Setting",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 2,
+        "name": "Function",
+        "display_name": "Function",
+        "url": "function ",
+        "parent_id": 1
+      },
+      {
+        "id": 3,
+        "name": "User Group",
+        "display_name": "User Group",
+        "url": "managergroupuser",
+        "parent_id": 1
+      },
+      {
+        "id": 4,
+        "name": "User",
+        "display_name": "User",
+        "url": "manageuser",
+        "parent_id": 1
+      },
+      {
+        "id": 5,
+        "name": "Permission",
+        "display_name": "Permission",
+        "url": "permission ",
+        "parent_id": 1
+      },
+      {
+        "id": 6,
+        "name": "Contract",
+        "display_name": "Contract",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 7,
+        "name": "Contract",
+        "display_name": "Contract",
+        "url": "contract",
+        "parent_id": 6
+      },
+      {
+        "id": 8,
+        "name": "Pre Paid",
+        "display_name": "Pre Paid",
+        "url": "prepaid",
+        "parent_id": 6
+      },
+      {
+        "id": 9,
+        "name": "Deployment",
+        "display_name": "Deployment",
+        "url": "deployment",
+        "parent_id": 6
+      },
+      {
+        "id": 10,
+        "name": "Employee",
+        "display_name": "Employee",
+        "url": "employee",
+        "parent_id": 6
+      },
+      {
+        "id": 11,
+        "name": "Liquidation Approve",
+        "display_name": "Liquidation Approve",
+        "url": "liquidation",
+        "parent_id": 6
+      },
+      {
+        "id": 12,
+        "name": "Promotion",
+        "display_name": "Promotion",
+        "url": "",
+        "parent_id": 0
+      },
+      {
+        "id": 13,
+        "name": "Coupon Plan",
+        "display_name": "Coupon Plan",
+        "url": "couponeventplan/couponPlan",
+        "parent_id": 12
+      },
+      {
+        "id": 14,
+        "name": "Event Management",
+        "display_name": "Event Management",
+        "url": "couponeventplan/couponPlan",
+        "parent_id": 12
+      },
+      {
+        "id": 15,
+        "name": "Sigup Coupon Setting",
+        "display_name": "Sigup Coupon Setting",
+        "url": "couponSignupSetting",
+        "parent_id": 12
+      },
+      {
+        "id": 16,
+        "name": "Coupon Usage",
+        "display_name": "Coupon Usage",
+        "url": "couponusage",
+        "parent_id": 12
+      }
+    ]
+  }
+]
